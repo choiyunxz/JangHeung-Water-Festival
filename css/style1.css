@@ -35,6 +35,10 @@ button {
     border: none;
     cursor: pointer;
   }
+
+  #wrap{
+    width: 2000px;
+  }
 /***************** header *****************/
 header{
     margin: 0 auto;
