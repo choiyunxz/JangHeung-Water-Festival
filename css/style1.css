@@ -37,7 +37,8 @@ button {
   }
 
   #wrap{
-    width: 1960px;
+    margin: 0 auto;
+    width: 1900px;
     overflow: hidden;
   }
 /***************** header *****************/
@@ -101,6 +102,7 @@ header .header_left li:last-child{
     padding-right: 0;
 }
 header .header_left li a{
+    padding: 3px 5px;
     font-size: 1.5rem;
     font-family: 'NanumSquareExtraBold';
     background: linear-gradient(180deg, rgba(255, 255, 255, 0)50%, #ffcf29 50%) no-repeat;
@@ -199,7 +201,7 @@ header .header_left li a:hover{
     align-items: center;
 }
 #section02 ul li img{
-    padding-top: 30px;
+    padding-top: 40px;
 }
 #section02 ul li h4{
     padding: 15px 0;
@@ -213,6 +215,7 @@ header .header_left li a:hover{
     line-height: 140%;
 }
 #section02 ul li a{
+    padding: 3px 5px;
     font-size: 1.125rem;
     font-family: 'NanumSquareExtraBold';
     background: linear-gradient(180deg, rgba(255, 255, 255, 0)50%, #ffcf29 50%) no-repeat;
@@ -258,8 +261,8 @@ header .header_left li a:hover{
     margin-top: 20px;
     padding: 8px 5px 8px 13px;
     width: 170px;
-    background-color: #0083ca;
-    color: #002437;
+    background-color: #008bd6;
+    color: #001c2a;
     font-size: 1.25rem;
     font-family: 'NanumSquareExtraBold';
 }
@@ -267,8 +270,8 @@ header .header_left li a:hover{
     margin: 10px 0;
     padding: 8px 5px 8px 13px;
     width: 325px;
-    background-color: #0083ca;
-    color: #002437;
+    background-color: #008bd6;
+    color: #001c2a;
     font-size: 1.25rem;
     font-family: 'NanumSquareExtraBold'; 
 }
@@ -312,13 +315,13 @@ header .header_left li a:hover{
     font-family: 'NanumSquareExtraBold';
 }
 #section04 h5{
-    padding-bottom: 40px;
+    padding-bottom: 45px;
     font-size: 1.625rem;
     line-height: 140%;
     font-family: 'NanumSquareBold';
 }
 #section04 .section04_img{
-    padding-bottom: 40px;
+    padding-bottom: 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -454,6 +457,7 @@ footer .hf .footer_left_text{
     font-size: 1.125rem;
 }
 footer .hf .footer_left_text a{
+    padding: 3px 5px;
     color: #000;
     font-family: 'NanumSquareExtraBold';
     background: linear-gradient(180deg, rgba(255, 255, 255, 0)50%, #ffcf29 50%) no-repeat;
@@ -544,6 +548,10 @@ footer .hf .footer_right .from a img{
     font-size: 1.25rem; font-family: 'NanumSquareBold'; text-align:center; font-family: 'NanumSquareExtraBold';
     color: #0283e6; 
 }
+.close:hover{
+    animation: sns-menu 0.3s infinite;
+    animation-direction: alternate;
+}
 
 input[id="popup_01"]:checked ~ .popup_back {display: none;}
 
@@ -554,7 +562,10 @@ input[id="popup_01"]:checked ~ .popup_back {display: none;}
 .parallax use:nth-child(2){animation-delay:-6s; animation-duration:6s}
 .parallax use:nth-child(3){animation-delay:-9s; animation-duration:9s}
 
-.ft_wave {bottom:0;display:block;width:1960px;height:120px;max-height:100vh;margin:0;background-color: #f7f9fb;}
+.ft_wave {
+    bottom:0;display:block;width:1900px;height:120px;max-height:100vh;
+    margin:0 auto;background-color: #f7f9fb;
+}
 
 
 @keyframes popup{
