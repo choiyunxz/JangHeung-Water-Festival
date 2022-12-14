@@ -226,17 +226,6 @@ header .header_left li a:hover{
     background-size: 100%;
 }
 /***************** section03 *****************/
-q:before,
-q:after {
-  content: "";
-}
-
-abbr,
-acronym {
-  border: 0;
-}
-/*Main CSS*/
-
 .container {
   width: 1900px;
   height: 750px;
@@ -286,6 +275,27 @@ acronym {
   background-size: cover;
   left: 0;
 }
+
+.slide2 {
+    background-image: url("../images/main_bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 100%;
+  }
+  
+  .slide3 {
+    background-image: url("../images/main_bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 200%;
+  }
+  
+  .slider > div {
+    text-align: center;
+  }
+  
 .slide1 .inner,
 .slide2 .inner,
 .slide3 .inner{
@@ -370,26 +380,6 @@ acronym {
 }
 
 
-
-.slide2 {
-  background-image: url("../images/main_bg1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  left: 100%;
-}
-
-.slide3 {
-  background-image: url("../images/main_bg1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  left: 200%;
-}
-
-.slider > div {
-  text-align: center;
-}
 /* Slider inner content */
 
 .slider h3 {
