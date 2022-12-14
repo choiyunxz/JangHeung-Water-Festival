@@ -173,7 +173,8 @@ header .header_left li a:hover{
 }
 /***************** section02 *****************/
 #section02{
-    height: 750px;
+    /*
+    height: 750px;*/
     text-align: center;
 }
 #section02 .inner{
@@ -588,7 +589,8 @@ header .header_left li a:hover{
 /*
 /***************** section04 *****************/
 #section04{
-    height: 900px;
+    /*
+    height: 900px;*/
     text-align: center;
 }
 #section04 .inner{
