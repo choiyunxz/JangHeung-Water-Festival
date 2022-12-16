@@ -633,7 +633,7 @@ input[type="radio" i]{
     text-align: center;
 }
 #section04 .inner{
-    padding: 125px 0;
+    padding: 100px 0 125px 0;
 }
 #section04 p:first-child{
     color: #ff3814;
@@ -708,7 +708,7 @@ input[type="radio" i]{
 */
 #section04 .inner .section04_icon ul li a{
     padding: 30px 100px;
-    font-size: 1.775rem;
+    font-size: 1.625rem;
     font-family: 'NanumSquareExtraBold';
     color: #656565;
     border-radius: 60px;
@@ -751,8 +751,7 @@ input[type="radio" i]{
     padding-left: 110px;
     font-family: 'NanumSquareExtraBold';
 }
-*/
-/*
+
 #section04 .section04_icon ul li a span{
     padding-left: 50px;
     font-size: 1.4rem;
@@ -760,9 +759,16 @@ input[type="radio" i]{
 }
 */
 #section04 .section04_icon ul li a span img{
+    padding-left: 30px;
+    position: relative;
+    top: 10.5px;
+    width: 39px;
+    filter: invert(33%) sepia(0%) saturate(0%) hue-rotate(164deg) brightness(90%) contrast(81%);
+    
+    /*
     width: 32px;
     filter: invert(33%) sepia(0%) saturate(0%) hue-rotate(164deg) brightness(90%) contrast(81%);
-
+    */
 }
 
 #section04 .section04_icon ul .lia1 a:hover{
@@ -894,8 +900,8 @@ footer .hf .footer_right .from a img{
 
 /**팝업**/
 
-#popup_01{display: none;  z-index: 99;}
-.popup_back{width: 100%; height: 100%; position: fixed; top:0; background-color: rgba(0, 0, 0, 0.442);}
+#popup_01{display: none;  z-index: 999;}
+.popup_back{width: 100%; height: 100%; position: fixed; top:0; background-color: rgba(0, 0, 0, 0.442); z-index: 999;}
 .popup{
     width: 500px; height: 500px;
     position: relative; top: 50px; left: 50px;
@@ -921,6 +927,25 @@ footer .hf .footer_right .from a img{
 }
 
 input[id="popup_01"]:checked ~ .popup_back {display: none;}
+
+/**TOP**/
+
+.top{
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    border: 1px solid #b3b7bc;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(256,256,256,0.3);
+}
+.top a img{
+    width: 50px;
+}
+
 
 /**웨이브**/
 
